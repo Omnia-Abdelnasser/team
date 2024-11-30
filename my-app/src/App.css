@@ -1,1 +1,67 @@
-
+/*about us*/
+.about{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+  
+  }
+  .about .content h2{
+    margin-top: 15px;
+    margin: auto;
+    text-align: center;
+    color: white;
+  }
+  .about span{
+    color: #fe8a06;
+  }
+  .about .content p{
+  color: white;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+  padding: 20px;
+  }
+  .about .card{
+    width: 100%;
+    height: 95%;
+    margin-top: 7%;
+  
+  }
+  
+  .about .card i{
+  color: #fe8a06;
+  margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .about .card h3{
+    margin-top: 2%;
+  text-align: center;
+  
+  }
+  .about .card p{
+  text-align: center;
+  margin:auto;
+  font-size: 18px;
+  }
+  .about .card :hover i{
+    color: black;
+  }
+  .social{
+    text-align: center;
+  }
+  .social i{
+    
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid ;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+  .social i:hover{
+    background-color:  #b8b7b620;
+  }
+  /*end about*/
