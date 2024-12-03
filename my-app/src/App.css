@@ -81,7 +81,7 @@
 .footer {
   padding-top: 40px;
   width: 100%;
-  background-color: #000000c7;
+  background-color: #000000e9;
   color: white;
 }
 .footer .container{
@@ -348,10 +348,7 @@ padding-top: 40px;
 .actors img:hover{
   transform: scale(1.07);
   border-color: #e2bb9c;
-  -webkit-transform: scale(1.07);
-  -moz-transform: scale(1.07);
-  -ms-transform: scale(1.07);
-  -o-transform: scale(1.07);
+
 }
 
 .social i{
@@ -594,10 +591,7 @@ color: #e2bb9c;
   color:#e2bb9c;
   background-color: #e2bb9c;
   border-radius: 20px;
-  -webkit-border-radius:;
-  -moz-border-radius:;
-  -ms-border-radius:;
-  -o-border-radius:;
+ 
 }
 .product3 a{
   text-decoration: none;
