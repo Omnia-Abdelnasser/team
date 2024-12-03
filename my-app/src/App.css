@@ -16,13 +16,13 @@
   
   }
   .about .content h2{
-    margin-top: 15px;
+    margin-top: 40px;
     margin: auto;
     text-align: center;
     color: white;
   }
   .about span{
-    color: #fe8a06;
+    color: #af7443;
   }
   .about .content p{
   color: white;
@@ -42,7 +42,7 @@
   }
   
   .about .card i{
-  color: #fe8a06;
+  color: #af7443;
   margin-top: 5%;
     font-size: 30px;
     text-align: center;
@@ -96,7 +96,7 @@
   text-decoration: none;
   color: white;
 }.footer a:hover{
-  color: #fe8a06;
+  color: #af7443;
 }
 .footer h4{
   text-align: center;
@@ -134,7 +134,7 @@
   margin: auto;
 }
 .contact h1 span{
-  color:#fe8a06;
+  color:#af7443
 }
 .contact header p{
   margin-top: 30px;
@@ -146,7 +146,7 @@
   width: 100%;
   margin-top: 60px;
   background-color: transparent;
-  border: 2px solid #fe8a06;
+  border: 2px solid #af7443;
   color: white;
 }
 .contact input:hover{
@@ -160,13 +160,13 @@
 #submit{
   width: 100%;
   margin-top: 60px;
-  background-color: #fe8a06;
+  background-color: #af7443;
 
 }
 
 .contact #submit:hover{
-  border-color: #fe8a06;
-  color: #fe8a06;
+  border-color: #af7443;
+  color: #af7443;
   background-color: aliceblue;
 } 
 
@@ -176,8 +176,8 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  color: #fe8a06;
-  border: 2px solid #fe8a06;
+  color: #af7443;
+  border: 2px solid #af7443;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -185,7 +185,7 @@
 }
  .contact.message{
   text-align: center;
-  color: #fe8a06;
+  color: #af7443;
   /* margin-bottom: 50%; */
 }
 /*end contact*/
