@@ -1,26 +1,26 @@
 import React from "react";
 import './App.css'
-import About from "./componants/about";
-import Nav from "./componants/nav";
+// import About from "./componants/about";
+import Home from "./componants/home";
 import Footer from "./componants/footer";
-import RegistrationForm from "./componants/contact";
+// import Contact from "./componants/contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App(){
-const forabout=()=>{
-if(window.location.pathname=="/componants/about"){
-  return <About/>
-}
-}
-const forcontact=()=>{
-  if(window.location.pathname=="/componants/contact"){
-    return <RegistrationForm/>
-  }
-}
+// const forabout=()=>{
+// if(window.location.pathname=="/componants/about"){
+//   return <About/>
+// }
+// }
+// const forcontact=()=>{
+//   if(window.location.pathname=="/componants/contact"){
+//     return <Contact/>
+//   }
+// }
   return(
     <div>
-  <Nav/>
-{forabout()}
-{forcontact()}
+  <Home/>
+{/* {forabout()}
+{forcontact()} */}
 <Footer/>
     </div>
   );
