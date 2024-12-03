@@ -8,14 +8,18 @@ import img7 from './image/decor6.jpg'
 import img8 from './image/decor7.jpg'
 import img9 from './image/decor8.jpg'
 // import img10 from './image/decor9.jpg'
-import img11 from './image/shopping (1).webp'
-const Home=()=>{
+// import img11 from './image/shopping (1).webp'
+ const Home=()=>{
 
     return(
 <>
 <div>
   <div className="base">
     <div className="baseGeneral">
+      <h2 className='main-text'>Quality is the best thing in the business</h2>
+    
+      <p className='txt'>we make our products in the best shope for<br/> your happiness<br/> so we hope to build a bridge of trust with you </p>
+      
       <div className="baseTxt">NewIkea for best furniture</div>
     </div>
   </div>
@@ -26,28 +30,28 @@ const Home=()=>{
       <div className='row'>
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
-          <img src={img11} alt="sofa" />
+          <img src={img9} alt="" />
           <h3>Luxury sofa</h3>
           <p>500$</p>
         </div>
         </div>
         <div className='col-md-3 py-3 py-md-0'>
-        <div className="product">
-          <img src={img4} alt="table" />
+        <div className="produgct" >
+          <img src={img8} alt=""  />
           <h3>Classic Office</h3>
           <p>300$</p>
         </div>
         </div>
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
-          <img src={img6}alt="chair" />
+          <img src={img6}alt="" />
           <h3>Comfortable chair</h3>
           <p>150$</p>
         </div>
         </div>
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
-          <img src={img5} alt="chair" />
+          <img src={img5} alt="" />
           <h3>Modern bed</h3>
           <p>150$</p>
         </div>
