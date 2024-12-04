@@ -30,18 +30,12 @@ import img9 from './image/decor8.jpg'
       <div className='row'>
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
-          <img src={img9} alt="" />
+          <img src={img1} alt="" />
           <h3>Luxury sofa</h3>
           <p>500$</p>
         </div>
         </div>
-        <div className='col-md-3 py-3 py-md-0'>
-        <div className="produgct" >
-          <img src={img8} alt=""  />
-          <h3>Classic Office</h3>
-          <p>300$</p>
-        </div>
-        </div>
+       
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
           <img src={img6}alt="" />
@@ -49,6 +43,15 @@ import img9 from './image/decor8.jpg'
           <p>150$</p>
         </div>
         </div>
+        
+        <div className='col-md-3 py-3 py-md-0'>
+        <div className="product">
+          <img src={img4}alt="" />
+          <h3>Classic Office</h3>
+          <p>150$</p>
+        </div>
+        </div>
+
         <div className='col-md-3 py-3 py-md-0'>
         <div className="product">
           <img src={img5} alt="" />
