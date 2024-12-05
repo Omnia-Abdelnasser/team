@@ -6,6 +6,8 @@ import Nav from "./componants/nav";
 import Footer from "./componants/footer";
 import Contact from "./componants/contact";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 import Products from "./componants/products";
 function App(){
 const forabout=()=>{
