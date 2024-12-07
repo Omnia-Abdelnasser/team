@@ -114,12 +114,14 @@
 }
 /*end footer*/
 /*start contact*/
+
+
 .contact{
   width: 100%;
   height: 100%;
   background-color:black;
   color:white;
-
+  font-style: italic;
 }
 .contact .container{
   padding-top: 20px;
@@ -134,35 +136,82 @@
   margin: auto;
 }
 .contact h1 span{
-  color:#af7443
+  color: #cb9b74;
 }
 .contact header p{
   margin-top: 30px;
   font-size: 18px;
   font-weight: bold;
-
 }
 .contact input{
   width: 100%;
+  height: 40px;
   margin-top: 60px;
+  border-radius: 30px;
   background-color: transparent;
-  border: 2px solid #af7443;
+  border: 2px solid #cb9b74;
   color: white;
 }
-.contact input:hover{
-  border: none;
+input:focus{
+background-color: #cb9b74;
+color: #000000;
 }
 #pwd{
   margin-top: 60px;
   width: 100%;
-
 }
-#submit{
-  width: 100%;
+#bot{
+  border: none;
+  background-color: #cb9b74;
+width: 100%;
   margin-top: 60px;
-  background-color: #af7443;
 
 }
+  .contact #btn {
+      width: 50%;
+      height: 35px;
+      font-weight: bold;
+      margin-top: 70px;
+      border: 2px solid #cb9b74;
+      border-radius: 30px;
+      background-color: #cb9b74;
+      color: rgb(0, 0, 0);
+      margin-bottom: 40px;
+      margin-left: 25%;
+ 
+}
+  .contact #btn:hover {
+      background-color: #000000;
+      color: #cb9b74;
+  }
+  .contact  .new{
+    background-image: url(componants/image/WhatsApp\ Image\ 2024-12-07\ at\ 19.44.10_509dade3.jpg);
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-right: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  .contact section i {
+      text-align: center;
+      padding: 2%;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      color: #cb9b74;
+      background-color: black;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border: 2px solid #cb9b74;
+  }
 
 .contact #submit:hover{
   border-color: #af7443;
@@ -182,11 +231,10 @@
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-}
+} 
  .contact.message{
   text-align: center;
   color: #af7443;
-  /* margin-bottom: 50%; */
 }
 /*end contact*/
 
