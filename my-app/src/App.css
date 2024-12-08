@@ -9,7 +9,7 @@
   }
 
 
-.about{
+/* .about{
     width: 100%;
     min-height: 100vh;
     background-color: black;
@@ -68,14 +68,104 @@
     padding: 10px;
     border-radius: 50%;
     border: 2px solid ;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+  .social i:hover{
+    background-color:  #b8b7b620;
+  } */
+
+  .about{
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    /* margin-top: 200px; */
+  }
+  .about .content h2{
+    /* margin: auto; */
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+  }
+  .about span{
+    color: #e2bb9c;
+  }
+  .about .content p{
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.8;
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: #cb9b74 3px solid;
+  padding: 15px;
+  
+}
+  .about .card{
+    width: 100%;
+    height: 95%;
+    margin-top: 3%;
+    background: #000000;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-repeat: no-repeat;
+    border: #cb9b74 2px solid;
+ 
+}
+  
+  .about .card i{
+  color: #cb9b74;
+  margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+  }
+  .about .card h3{
+    margin-top: 2%;
+  text-align: center;
+  }
+  .about .card p{
+  text-align: center;
+  margin:auto;
+  font-size: 18px;
+  }
+  .about .card :hover i{
+    color: black;
+  }
+  .social{
+   text-align: center;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+}
+  .social i{
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid ;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
-  .social i:hover{
-    background-color:  #b8b7b620;
+    color: #cb9b74;
+    cursor: pointer
+  
   }
+  .social i:hover{
+    background-color:  #c2a17f25;
+    
+  }
+
   /*end about*/
 /*start footer*/
 .footer {
@@ -92,8 +182,10 @@
   padding: 10px;
   margin: auto;
   text-align: center;
+  align-items: center;
 }.footer a{
   text-decoration: none;
+  font-size: 15px;
   color: white;
 }.footer a:hover{
   color: #af7443;
@@ -108,7 +200,7 @@
   text-align: center;
 }
 .footer p{
- font-size: 15px;
+ font-size: 13px;
  text-align: center;
 
 }
@@ -151,6 +243,7 @@
   background-color: transparent;
   border: 2px solid #cb9b74;
   color: white;
+  
 }
 input:focus{
 background-color: #cb9b74;
@@ -178,7 +271,10 @@ width: 100%;
       color: rgb(0, 0, 0);
       margin-bottom: 40px;
       margin-left: 25%;
- 
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
 }
   .contact #btn:hover {
       background-color: #000000;
@@ -835,8 +931,7 @@ nav ul {
     display: none;
   }
 }
-
-.nav-link a:hover {
-  color: #cb9b74;
+.nav-link a:hover{
+  color: #af7443;
 }
 /* End of Navbar Styles */

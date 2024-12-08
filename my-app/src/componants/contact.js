@@ -35,7 +35,7 @@ const Contact = () => {
      <>
 
  <div className="contact">
-  <h1 style={{fontSize: 35, fontWeight: 400, textAlign: 'center', width: 500, wordSpacing: 10}}>Contact<span> Us</span></h1>
+  <h1 style={{fontSize: 35, fontWeight: 400, textAlign: 'center', wordSpacing: 10}}>Contact<span> Us</span></h1>
   <div className="container">
     <div className="row">
       <div className="col-md-5 py-3 py-md-0">

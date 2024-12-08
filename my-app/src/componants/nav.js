@@ -201,6 +201,7 @@ const Nav = () => {
           .navbar {
             margin-bottom: 0;
           }
+          
         `}
       </style>
 
@@ -229,7 +230,7 @@ const Nav = () => {
               </div>
               <ul className="navbar-nav ml-auto" style={{ marginLeft: '13%' }}>
                 <li className="nav-item">
-                  <a className="nav-link" style={{ color: '#cb9b74' }} href="/componants/home">
+                  <a className="nav-link"  style={{ color: '#cb9b74' }} href="/componants/home">
                     HOME
                   </a>
                 </li>
