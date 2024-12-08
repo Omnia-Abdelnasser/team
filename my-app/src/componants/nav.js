@@ -244,11 +244,11 @@ const Nav = () => {
                     Contact Us
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a className="nav-link" style={{ color: 'bisque' }} href="/componants/services">
                     Services
                   </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <a className="nav-link" style={{ color: 'bisque' }} href="/componants/about">
                     About Us

@@ -492,7 +492,10 @@ padding-top: 40px;
 .actors img:hover{
   transform: scale(1.07);
   border-color: #e2bb9c;
-
+  -webkit-transform: scale(1.07);
+  -moz-transform: scale(1.07);
+  -ms-transform: scale(1.07);
+  -o-transform: scale(1.07);
 }
 
 .social i{
@@ -500,10 +503,6 @@ padding-top: 40px;
   padding: 10px;
   border-radius: 50%;
   border: 2px solid ;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 .social i:hover{
   background-color:  #b8b7b620;
@@ -587,6 +586,7 @@ background-color: #e2bb9c;
 .product3  button:hover{
   background-color: #000;
   border-color: black;
+  color: #af7443;
 }
 .product3 button:hover a{
   color: #e2bb9c;
