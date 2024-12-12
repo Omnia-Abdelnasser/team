@@ -30,6 +30,7 @@ const forhome=()=>{
     return <Home/>
   }
 }
+
   return(
     <div>
      <Nav/>

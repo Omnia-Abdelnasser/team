@@ -243,7 +243,10 @@
   background-color: transparent;
   border: 2px solid #cb9b74;
   color: white;
-  
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 input:focus{
 background-color: #cb9b74;
@@ -264,7 +267,7 @@ width: 100%;
       width: 50%;
       height: 35px;
       font-weight: bold;
-      margin-top: 70px;
+      margin-top: 50px;
       border: 2px solid #cb9b74;
       border-radius: 30px;
       background-color: #cb9b74;
@@ -859,14 +862,14 @@ nav {
 }
 
 .navbar-custom {
-  background-color: rgba(0, 0, 0, 0.324); /* Transparent background with slight opacity */
+  background-color: rgba(0, 0, 0, 0.324); 
   background-size: cover;
   background-repeat: no-repeat;
   color: #ddd;
-  position: sticky;  /* Fix navbar to top */
-  top: 0;  /* Stick to the top */
-  z-index: 1000; /* Ensure it stays on top of other content */
-  width: 100%; /* Ensure navbar spans full width */
+  position: sticky;  
+  top: 0;  
+  z-index: 1000; 
+  width: 100%; 
 }
 
 .navbar-white {
@@ -894,7 +897,7 @@ nav {
 }
 
 .icon-box i {
-  font-size: 24px; /* Increased icon size */
+  font-size: 24px; 
   color: #e2bb9c;
   padding: 10px 20px;
   margin: 0 10px;
@@ -915,7 +918,7 @@ nav ul {
   text-align: center;
   align-items: center;
   justify-content: center;
-  padding-left: 50px; /* Adjusted padding */
+  padding-left: 50px; 
   color: #e2bb9c;
 }
 
@@ -934,4 +937,11 @@ nav ul {
 .nav-link a:hover{
   color: #af7443;
 }
-/* End of Navbar Styles */
+/*end nav*/
+
+
+
+
+
+
+ 
